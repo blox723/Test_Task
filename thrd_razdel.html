@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Просмотр поста - Блог</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <ul>
+                <li><a href="frst_razdel.html">Общий список постов</a></li>
+                <li><a href="scnd_razdel.html">Создание/Редактирование поста</a></li>
+                <li><a href="thrd_razdel.html">Просмотр поста</a></li>
+            </ul>
+        </header>
+        <main>
+            <form id="form2">
+                <p>Заголовок<input  type="text" name="create_note_header"></p>
+                <p>Текст поста<br><textarea name="create_note_text"></textarea></p> 
+                <p>Дата создания<input  type="text" name="create_note_data"></p>
+                <p>Дата изменения<input  type="text" name="create_note_data_changed"></p>
+            </form>
+           
+        <p><input type="button" name="change_note_btn_find" id="btn1" value="Найти"></p>
+        <p><input type="button" name="notes_delete" id="btn2" value="Сброс"></p>
+        </main>
+        
+    </div>
+    <script src="create.js"></script>
+    
+</body>
+</html>
